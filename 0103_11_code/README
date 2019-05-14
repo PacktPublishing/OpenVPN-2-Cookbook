@@ -1,0 +1,41 @@
+OpenVPN Cookbook Chapter 11 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 11 is divided up into 8 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+11.1 Including config files in config files
+server: example11-1-common.conf, example11-1-server1.conf, example11-1-server2.conf
+
+11.2 Multiple remotes & remote-random
+server: basic-udp-server.conf
+client: example11-2-client.conf
+
+11.3 Details of 'ifconfig-pool-persist'
+server: example11-3-server.conf
+client1: basic-udp-client.conf
+client2: basic-udp-client.ovpn
+
+11.4 Connecting using a SOCKS proxy
+server: example9-7-server.conf
+client: example11-4-client.conf
+
+11.5 Connecting via an HTTP proxy
+server: example9-7-server.conf
+client: example11-5.ovpn
+
+11.6 Connecting via an HTTP proxy with authentication
+server: example9-7-server.conf, proxy.conf
+client: example9-7.ovpn
+
+11.7 Using 'dyndns'
+server: basic-udp-server.conf
+client: example11-7.ovpn
+
+11.8 IP-less setups (ifconfig-noexec)
+server:  example11-8-server.conf
+client:  example11-8-client.conf
+scripts: example11-8-up.sh, example11-8-route-up.sh
+

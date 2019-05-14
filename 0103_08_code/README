@@ -1,0 +1,40 @@
+OpenVPN Cookbook Chapter 8 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 8 is divided up into 8 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+8.1 The missing return route
+server: basic-udp-server.conf
+client: basic-udp-client.conf
+
+8.2 Missing return routes when 'iroute' is used
+server: example2-5-server.conf
+client: basic-udp-client.conf
+
+8.3 All clients function except the OpenVPN endpoints
+server: example2-5-server.conf
+client: basic-udp-client.conf
+
+8.4 Source routing
+server: basic-udp-server.conf
+client: basic-udp-client.ovpn
+
+8.5 Routing and permissions on Windows
+server: basic-udp-server.conf
+client: basic-udp-client.ovpn
+
+8.6 Troubleshooting client-to-client traffic routing
+server: basic-udp-server.conf
+client: basic-udp-client.conf
+
+8.7 Understanding the 'MULTI: bad source' warnings
+server: example2-5-server.conf
+client: basic-udp-client.conf
+
+8.8 Failure when redirecting the default gateway
+server: basic-udp-server.conf
+client: example8-8-client.conf
+

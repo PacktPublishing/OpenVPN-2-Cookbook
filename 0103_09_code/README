@@ -1,0 +1,39 @@
+OpenVPN Cookbook Chapter 9 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 9 is divided up into 8 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+9.1 Optimizing performance using 'ping'
+none
+
+9.2 Optimizing performance using 'iperf'
+server: basic-udp-server.conf
+client: basic-udp-client.conf
+
+9.3 OpenSSL cipher speed
+none
+
+9.4 Compression tests
+server: example9-4-server.conf
+client1: example9-4-client.conf
+client2: example9-4.ovpn
+
+9.5 Traffic shaping
+server: example9-5-server.conf
+client: basic-udp-client.ovpn
+
+9.6 Tuning UDP based connections
+server: example9-6-server.conf
+client: example9-6-client.conf
+
+9.7 Tuning TCP based connections
+server: example9-7-server.conf
+client: example9-7.ovpn
+
+9.8 Analyzing performance using tcpdump
+server: example9-6-server.conf
+client: example9-6-client.conf
+

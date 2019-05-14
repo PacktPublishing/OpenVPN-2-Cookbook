@@ -1,0 +1,37 @@
+OpenVPN Cookbook Chapter 4 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 4 is divided up into 9 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+4.1 Certificate generation
+none
+
+4.2 xCA: a GUI for managing a PKI (Part 1)
+none
+
+4.3 xCA: a GUI for managing a PKI (Part 2)
+none
+
+4.4 OpenSSL tricks: x509, pkcs12, verify output
+none
+
+4.5 Revoking certificates
+none
+
+4.6 The use of CRLs
+server: example4-6-server.conf
+client: example4-6-client.conf
+
+4.7 Checking expired/revoked certificates
+none
+
+4.8 Intermediary CA's
+none
+
+4.9 Multiple CA's: stacking, using --capath
+server: example4-9-server.conf
+client: example4-9-client.conf
+

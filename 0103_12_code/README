@@ -1,0 +1,40 @@
+OpenVPN Cookbook Chapter 12 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 12 is divided up into 7 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+12.1 Inline certificates
+server: basic-udp-server.conf
+client: example12-1-client.conf
+
+12.2 Connection blocks
+server1: basic-udp-server.conf
+server2: example9-7-server.conf
+client:  example12-2-client.conf
+
+12.3 Port sharing with an HTTPS server
+server: example12-3-server.conf
+client: example12-3.ovpn
+
+12.4 Routing features: redirect-private, allow-pull-fqdn
+server: example12-4-server.conf
+client: example12-4.ovpn
+
+12.5 Handing out public IPs 
+server:  example12-5-server.conf
+client:  basic-udp-client.ovpn
+scripts: proxyarp-connect.sh, proxyarp-disconnect.sh
+
+12.6 OCSP support
+server: example12-6-server.conf
+client: basic-udp-client.ovpn
+script: example12-6-ocsp.sh
+
+12.7 New for 2.2: the 'x509_user_name' parameter
+server: example12-7-server.conf
+client: example12-7.ovpn
+script: example12-7-client-connect.sh
+

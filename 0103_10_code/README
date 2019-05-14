@@ -1,0 +1,43 @@
+OpenVPN Cookbook Chapter 10 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 10 is divided up into 9 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+10.1 Linux: using NetworkManager 
+server: basic-udp-server.conf
+
+10.2 Linux: using pull-resolv-conf
+server: example10-2-server.conf
+client: example10-2-client.conf
+
+10.3 MacOS: using Tunnelblick
+server: example10-2-server.conf
+
+10.4 Windows Vista/7: elevated privileges
+server: basic-udp-server.conf
+client: example10-4.ovpn
+
+10.5 Windows: using the CryptoAPI store
+server: basic-udp-server.conf
+client: example10-5.ovpn
+
+10.6 Windows: updating the DNS cache
+server: example10-2-server.conf
+client: example10-6.ovpn
+scripts: example10-6.bat
+
+10.7 Windows: running OpenVPN as a service
+server: basic-udp-server.conf
+client: example10-7.ovpn
+
+10.8 Windows: public versus private network adapters
+server: basic-udp-server.conf
+client: basic-udp-client.ovpn
+
+10.9 Windows: routing methods
+server: basic-udp-server.conf
+client: example10-9.ovpn
+

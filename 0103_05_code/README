@@ -1,0 +1,37 @@
+OpenVPN Cookbook Chapter 5 sample code
+
+The samples in this chapter are all openvpn configuration files, 
+some server configuration files and some client configuration files.
+
+Chapter 5 is divided up into 8 recipes. Below is a list of which
+configuration file is used in which recipe.
+
+5.1 Initialize hardware token
+none
+
+5.2 Getting hardware token ID
+none
+
+5.3 Using hardware token
+server: basic-udp-server.conf
+client: example5-3-client.conf
+
+5.4 Using the management interface to list PKCS11 certificates
+server: basic-udp-server.conf
+client: example5-4-client.conf
+
+5.5 Selecting a PKCS#11 certificate using the management interface
+server: basic-udp-server.conf
+client: example5-4-client.conf
+
+5.6 Generating a key on the hardware token
+none
+
+5.7 Private method for getting PKCS11 certificate
+server: basic-udp-server.conf
+client: example5-7-client.conf
+
+5.8 Pin caching example
+server: basic-udp-server.conf
+client: example5-8-client.conf
+
